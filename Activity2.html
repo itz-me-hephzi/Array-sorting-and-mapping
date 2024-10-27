@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Mapping</h2>
+    <p>Multipy every element in the arry with 15</p>
+    <p id="product_value"></p>
+    <script>
+        var numbers=[4,33,10,5,1,15]
+        function myFunction(num) {
+            return num * 15
+        }
+
+        var newarray1 = numbers.map(myFunction);
+        document.getElementById("product_value").innerHTML = newarray1;
+    </script>
+</body>
+</html>
